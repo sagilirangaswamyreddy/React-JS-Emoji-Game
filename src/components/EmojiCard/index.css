@@ -1,0 +1,21 @@
+/* Write your code here. */
+.emoji-btn-styles {
+  background-color: #ffffff33;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #ffffff30;
+  min-width: 170px;
+  min-height: 170px;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+@media (max-width: 767px) {
+  .emoji-btn-styles {
+    min-width: 50px;
+    min-height: 50px;
+    padding: 10px;
+  }
+}
